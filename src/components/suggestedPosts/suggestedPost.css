@@ -1,0 +1,33 @@
+.graybg {
+  background-color: #fafafa;
+  padding: 40px 0 16px;
+  position: relative;
+}
+
+span.post-name,
+span.post-date,
+span.author-meta {
+  display: inline-block;
+}
+span.post-date,
+span.post-read {
+  color: rgba(0, 0, 0, 0.44);
+}
+span.post-read-more {
+  align-items: center;
+  display: inline-block;
+  float: right;
+  margin-top: 8px;
+}
+span.post-read-more a {
+  color: rgba(0, 0, 0, 0.44);
+}
+span.post-name a,
+span.post-read-more a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+.dot:after {
+  content: "·";
+  margin-left: 3px;
+  margin-right: 3px;
+}

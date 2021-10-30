@@ -1,0 +1,83 @@
+body {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  font-size: 4em;
+  font-weight: 600;
+}
+.card {
+  width: 400px;
+  padding: 40px;
+  border: none;
+  border-radius: 3%;
+}
+
+.account {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.contact {
+  font-size: 13px;
+}
+
+.form-control {
+  text-indent: 14px;
+  margin-bottom: 15px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #4a148c;
+  outline: 0;
+  box-shadow: none;
+}
+
+.inputbox {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.inputbox i {
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  color: #dadada;
+}
+
+.form-check-label {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.form-check-input {
+  width: 14px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+.forgot {
+  font-size: 14px;
+  text-decoration: none;
+  color: #4a148c;
+}
+
+.mail {
+  color: #4a148c;
+  text-decoration: none;
+}
+
+.form-check {
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: black;
+  border-color: #4a148c;
+}

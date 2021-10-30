@@ -1,0 +1,144 @@
+.post {
+  padding-top: 1rem;
+}
+.mainheading {
+  padding: 1rem 0rem;
+}
+.mainheading h1.sitetitle {
+  font-family: Righteous;
+}
+.mainheading h1.posttitle {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.post-top-meta {
+  margin-bottom: 2rem;
+}
+.post-top-meta .author-thumb {
+  width: 72px;
+  height: 72px;
+}
+.post-top-meta.authorpage .author-thumb {
+  margin-top: 40px;
+}
+.post-top-meta span {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.44);
+  display: inline-block;
+}
+.post-top-meta .author-description {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 0.95rem;
+}
+
+span.post-name,
+span.post-date,
+span.author-meta {
+  display: inline-block;
+}
+span.post-date,
+span.post-read {
+  color: rgba(0, 0, 0, 0.44);
+}
+
+.featured-image {
+  width: 100%;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 1.5rem;
+}
+
+.article-post {
+  font-family: Merriweather;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.8);
+}
+blockquote {
+  border-left: 4px solid #00ab6b;
+  padding: 0 20px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+.article-post p,
+.article-post blockquote {
+  margin: 0 0 1.5rem 0;
+}
+
+ul.tags {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 3rem 0;
+}
+ul.tags li {
+  display: inline-block;
+  font-size: 0.9rem;
+}
+ul.tags li a {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+ul.tags li a:hover {
+  background: rgba(0, 0, 0, 0.07);
+  text-decoration: none;
+}
+
+.share {
+  text-align: center;
+  margin-top: 20px;
+}
+.share p {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+.share {
+  display: none;
+}
+.share ul li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.share ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+.svgIcon {
+  vertical-align: middle;
+}
+@media (min-width: 1024px) {
+  .share {
+    position: fixed;
+    display: block;
+  }
+  .share ul li {
+    display: block;
+  }
+}
+
+.btn.follow {
+  border-color: #02b875;
+  color: #1c9963;
+  padding: 3px 10px;
+  text-align: center;
+  border-radius: 999em;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+.btn.subscribe {
+  background-color: #1c9963;
+  border-color: #1c9963;
+  color: rgba(255, 255, 255, 1);
+  fill: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  font-size: 0.85rem;
+  margin-left: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.post-top-meta .btn.follow {
+  margin-left: 5px;
+  margin-top: -4px;
+}

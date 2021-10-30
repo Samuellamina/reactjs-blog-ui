@@ -1,0 +1,191 @@
+a:link {
+  text-decoration: none;
+}
+section {
+  margin-bottom: 20px;
+}
+.section-title h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 27px;
+}
+.section-title span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: -1px;
+}
+@media (min-width: 576px) {
+  .card-columns.listfeaturedtag {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+  }
+}
+.card-columns .card {
+  margin-bottom: 20px;
+}
+.listfeaturedtag .wrapthumbnail {
+  height: 258px;
+  flex: 0 0 auto;
+}
+.listfeaturedtag .card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1%;
+  height: 260px;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+.listfeaturedtag .thumbnail {
+  background-size: cover;
+  height: 100%;
+  display: block;
+  background-position: 38% 22% !important;
+  background-origin: border-box !important;
+  border-top-left-radius: 2px;
+}
+.listfeaturedtag .card-block {
+}
+.listfeaturedtag h2.card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  padding-top: 20px;
+}
+.listrecent h2.card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 20px 20px 10px;
+}
+
+.listfeaturedtag h2.card-title a,
+.listrecent h2.card-title a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  padding-right: 10px;
+}
+.listfeaturedtag h2.card-title a:hover,
+.listrecent h2.card-title a:hover {
+  padding-top: 20px;
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.listfeaturedtag h4.card-text {
+  color: rgba(0, 0, 0, 0.44);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-weight: 400;
+}
+.listrecent h4.card-text {
+  color: rgba(0, 0, 0, 0.44);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  padding-left: 20px;
+  font-weight: 400;
+}
+.listfeaturedtag .wrapfooter {
+  position: absolute;
+  bottom: 20px;
+  font-size: 12px;
+  display: block;
+  width: 85%;
+}
+.listrecent .wrapfooter {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.listfeaturedtag {
+  padding-bottom: 20px;
+}
+.author-thumb {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 13px;
+  border-radius: 100%;
+}
+@media (max-width: 999px) {
+  .listfeaturedtag .wrapthumbnail,
+  .listfeaturedtag .col-md-7 {
+    width: 100%;
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+  }
+  .listfeaturedtag .wrapthumbnail {
+    height: 250px;
+  }
+  .listfeaturedtag .card {
+    height: auto;
+  }
+  .listfeaturedtag .wrapfooter {
+    position: relative;
+    margin-top: 30px;
+  }
+  .listfeaturedtag .card-block {
+    padding: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .post-top-meta .col-md-10 {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .post-top-meta.authorpage {
+    text-align: center;
+  }
+}
+
+.author-meta {
+  flex: 1 1 auto;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  text-decoration: none;
+}
+span.post-name,
+span.post-date,
+span.author-meta {
+  display: inline-block;
+}
+span.post-date,
+span.post-read {
+  color: rgba(0, 0, 0, 0.44);
+}
+
+span.post-read-more {
+  align-items: center;
+  display: inline-block;
+  float: right;
+  margin-top: 8px;
+}
+span.post-read-more a {
+  color: rgba(0, 0, 0, 0.44);
+}
+span.post-name a,
+span.post-read-more a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+.dot:after {
+  content: "·";
+  margin-left: 3px;
+  margin-right: 3px;
+}

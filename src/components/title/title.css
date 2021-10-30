@@ -1,0 +1,11 @@
+.mainheading {
+  padding: 1rem 0rem;
+}
+
+.mainheading h1.sitetitle {
+  font-family: Righteous;
+}
+.mainheading h1.posttitle {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
